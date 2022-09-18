@@ -1,12 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/mean.css" />
     <title>Nastija and Dima wedding</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!--Navbar Section-->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#header" class="navbar__links lang" key="mean" id="home-page">Главная</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#place-date" class="navbar__links lang lang" key="about" id="works-page"
+              >место и время</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#timer" class="navbar__links lang" key="services" id="price-page"
+              >обратный отсчет</a
+            >
+          </li>
+
+          <li class="navbar__item">
+            <a href="#detteils-weding" class="navbar__links lang" key="gallery" id="services-page"
+              >детали</a
+            >
+          </li>
+
+          <li class="navbar__item">
+            <a href="#map" class="navbar__links lang" key="price" id="kontakt-page">как добратся</a>
+          </li>
+
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links lang" key="contact" id="kontakt-page2"
+              >потверждение присутсвия</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Header Section-->
+
+    <div class="header" id="header">
+      <div class="header__title _anim-items _anim-no-hide">мы женимся!</div>
+      <div class="heder__names _anim-items _anim-no-hide">дима & Настя</div>
+      <div class="header__info">
+        <div class="header__info-infornation">
+          <div class="information__tade _anim-items _anim-no-hide">Субота,Ноя.19,2022</div>
+          <div class="information__place _anim-items _anim-no-hide">Urząd Stanu Cywilnego,Wroclaw</div>
+          <div class="button__blok">
+            <a href="#place-date" class="button"> узнать больше </a>
+            <div class="arrow__down">
+              <img src="/image/down-arrow.svg" alt="" width="200px" height="75px" />
+            </div>
+            <div class="arrow__down-2">
+              <img src="/image/down-arrow.svg" alt="" width="200px" height="75px" />
+            </div>
+          </div>
+        </div>
+        <div class="header__info-foto _anim-items _anim-no-hide">
+          <img src="/image/header_foto.JPG" alt="header_foto" />
+        </div>
+      </div>
+    </div>
+    <!--Place and Data-->
+    <div class="place-date" id="place-date">
+      <div class="place-date__tittle _anim-items _anim-no-hide">
+        Дорогие и любимые!<br />
+        Мы очень хотим оказаться в окружении самых<br />
+        близких и дорогих для нас людей.<br />
+        Будем очень рады видеть вас на торжественной<br />
+        церемонии нашего бракосочетания,<br />
+        а после разделить с нами праздничный банкет.
+      </div>
+      <div class="place-date__info">
+        <div class="time _anim-items _anim-no-hide">
+          <img class="time-icon" src="/image/clock.svg" alt="" width="35px" />
+
+          <div class="time-title">когда</div>
+          <div class="time-text">19 ноября 2022 года в 13:00</div>
+        </div>
+        <div class="place _anim-items _anim-no-hide">
+          <img class="place-icon" src="/image/position.svg" alt="" width="35px" />
+
+          <div class="place-title">где</div>
+          <div class="place-text">19 ноября 2022 года в 13:00</div>
+        </div>
+      </div>
+      <div class="place-date__wishes">
+        <div class="wishes-text _anim-items _anim-no-hide">
+          Заранее отвечаем на ваши вопросы Будет ли дресс-код?<br />
+          Да! <br />
+          Вот наша цветовая гамма<br />
+        </div>
+        <div class="wishes-img _anim-items _anim-no-hide">
+          <img src="/image/dreskot.JPG" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--Timer Section-->
+    <div class="timer" id="timer">
+      <div class="timer__title">До свадьбы осталось</div>
+      <div class="time-count__content _anim-items _anim-no-hide">
+        <div class="time-count__item time-count__days">
+          <div class="time-count__val">00</div>
+          <span class="time-count__text">дней</span>
+        </div>
+
+        <div class="time-count__item time-count__houers">
+          <div class="time-count__val">00</div>
+          <span class="time-count__text">часов</span>
+        </div>
+
+        <div class="time-count__item time-count__minutes">
+          <div class="time-count__val">00</div>
+          <span class="time-count__text">минут</span>
+        </div>
+
+        <div class="time-count__item time-count__seconds">
+          <div class="time-count__val">00</div>
+          <span class="time-count__text">секунд</span>
+        </div>
+      </div>
+    </div>
+    <!--deteils wedding section-->
+    <div class="detteils-weding" id="detteils-weding">
+      <div class="detteils-weding__tattle">детали праздника и<br />пожелания</div>
+      <div class="detteils-weding__taming">
+        <div class="taming__ceremoni _anim-items _anim-no-hide">
+          <img src="/image/rings.svg" alt="" class="ceremoni__logo" width="45px" />
+          <div class="ceremoni__text">13ч.00мин. - торжественая церемония</div>
+        </div>
+        <div class="taming__dinner _anim-items _anim-no-hide">
+          <img src="/image/dinner.svg" alt="" class="dinner__logo" width="45px" />
+          <div class="diner__textn">14ч.30мин. - праздничный банкет</div>
+        </div>
+      </div>
+      <div class="detteils-weding__wishes _anim-items _anim-no-hide">
+        PS:теплые слова и поздравления <br />
+        приносите в сердце,<br />а подарки в конверте.
+      </div>
+    </div>
+
+    <!--Galery Section-->
+    <div class="parent">
+      <div class="div1"></div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+      <div class="div4"></div>
+    </div>
+    <!--position Section-->
+    <div class="map" id="map">
+      <div class="map__ceremoni">
+        <div class="map__ceremoni-title">
+          <img src="/image/position.svg" alt="" width="55px" />
+          <div class="title__text">место проведения церемонии</div>
+        </div>
+        <div class="ceremoni__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2281.8186085858174!2d17.026879457490697!3d51.11133427887395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc20a53344781%3A0xe05a47751603948f!2sRegistry%20Office!5e0!3m2!1sru!2spl!4v1663519799752!5m2!1sru!2spl"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="map__dinner">
+        <div class="map__dinner-title">
+          <img src="/image/position.svg" alt="" width="55px" />
+          <div class="title__text">адресс ресторана</div>
+        </div>
+        <div class="dinner__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.6307553607435!2d17.06737405029493!3d51.1152725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe82ddb209387%3A0x38656b7f32af51fe!2sPrzyjaciele%20i%20Znajomi!5e0!3m2!1sru!2spl!4v1663519995113!5m2!1sru!2spl"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!--Contakt Section-->
+    <div class="contact" id="contact">
+      <div class="contact__title _anim-items _anim-no-hide">
+        Потвердить свое присутсвие,<br />а также по всем<br />
+        в групе <span>Telegram</span>
+      </div>
+      <img src="/image/telegram-arrow.svg" alt="" class="telegram__arrow _anim-items _anim-no-hide" width="45px" />
+      <a href="#" class="telegram _anim-items _anim-no-hide"><img src="/image/telegram.svg" alt="" width="65px" /></a>
+      <div class="contact__dow-text">Пожалуста,потвердите свое присутсвие до 01.10.2022</div>
+    </div>
+    <!--Footer Section-->
+    <div class="footer">
+      <div>время для счастя - сейчас.</div>
+      <div>время для счастя - здесь.</div>
+    </div>
+
+    <!--Java-->
+    <script src="/js/app.js"></script>
+  </body>
 </html>

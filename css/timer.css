@@ -1,0 +1,10 @@
+.timer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.timer__title {
+  font-size: 3.5rem;
+  font-weight: 600; }

@@ -1,0 +1,42 @@
+.map__ceremoni {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  background-image: url(/image/register.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.map__dinner {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  background-image: url(/image/dinner.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.map__ceremoni-title,
+.map__dinner-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.ceremoni__map,
+.dinner__map {
+  width: 900px;
+  height: 400px; }
+  .ceremoni__map iframe,
+  .dinner__map iframe {
+    width: 100%;
+    height: 400px; }

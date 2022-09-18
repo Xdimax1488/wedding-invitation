@@ -1,0 +1,17 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: 'div2 div2 .' 'div2 div2 .' 'div3 div3 div4'; }
+
+.div2 {
+  width: 100%;
+  background-image: url(./image/1.jpeg);
+  grid-area: div2; }
+
+.div3 {
+  grid-area: div3; }
+
+.div4 {
+  grid-area: div4; }

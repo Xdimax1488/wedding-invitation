@@ -1,0 +1,23 @@
+{
+  "name": "wedding-invitation",
+  "version": "1.0.0",
+  "description": "Nastija and Dima wedding-invitation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_css": "node-sass -w scss/mean.scss -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xdimax1488/wedding-invitation.git"
+  },
+  "author": "Dima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xdimax1488/wedding-invitation/issues"
+  },
+  "homepage": "https://github.com/Xdimax1488/wedding-invitation#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
