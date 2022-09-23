@@ -37,7 +37,7 @@ const timeCount = () => {
   secondsVal.textContent = seconds;
 
   daysText.textContent = declOfNum(days, ['день', 'дня', 'дней']);
-  hoursText.textContent = declOfNum(hours, ['час', 'часа', 'чвсов']);
+  hoursText.textContent = declOfNum(hours, ['час', 'часа', 'часов']);
   minutesText.textContent = declOfNum(minutes, ['минута', 'минуты', 'минут']);
   secondsText.textContent = declOfNum(seconds, ['секунда', 'секунды', 'секунд']);
 };
