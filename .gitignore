@@ -1,6 +1,6 @@
 node_modules
 scss
-
+package-lock.jsone
 npm-debug.log
 .env
 
