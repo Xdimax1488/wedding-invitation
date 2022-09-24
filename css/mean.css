@@ -582,7 +582,7 @@ ul[class] {
 .map__ceremoni {
   padding-top: 4rem;
   padding-bottom: 6rem;
-  background-image: url(image/register.jpg);
+  background-image: url(../image/register.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -594,7 +594,7 @@ ul[class] {
 .map__dinner {
   padding-top: 4rem;
   padding-bottom: 6rem;
-  background-image: url(image/dinner.jpg);
+  background-image: url(../image/dinner.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
